@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: 'Noto Sans TC', sans-serif;
 }
 
@@ -20,10 +20,10 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 1rem;
   position: -webkit-sticky;
   position: sticky;
@@ -31,7 +31,7 @@ header {
   z-index: 10;
   background-color: #fff;
   -webkit-box-shadow: 0 3px 2px 1px #575757;
-  box-shadow: 0 3px 2px 1px #575757;
+          box-shadow: 0 3px 2px 1px #575757;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -41,11 +41,11 @@ header div.logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-flex: 5;
-  -ms-flex: 5 1 500px;
-  flex: 5 1 500px;
+      -ms-flex: 5 1 500px;
+          flex: 5 1 500px;
 }
 
 header div.logo img {
@@ -54,8 +54,8 @@ header div.logo img {
 
 header nav {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 400px;
-  flex: 2 1 400px;
+      -ms-flex: 2 1 400px;
+          flex: 2 1 400px;
 }
 
 header nav ul {
@@ -64,7 +64,7 @@ header nav ul {
   display: flex;
   list-style-type: none;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 header nav ul li a {
@@ -85,15 +85,15 @@ main section.backImg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 
@@ -128,11 +128,11 @@ main section.second {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
 
@@ -147,25 +147,25 @@ main section.second section.cards {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 80%;
 }
 
 main section.second section.cards div.card {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 400px;
-  flex: 1 1 400px;
+      -ms-flex: 1 1 400px;
+          flex: 1 1 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 main section.second section.cards div.card div.img-container {
@@ -185,7 +185,7 @@ main section.second section.cards div.card div.img-container img {
 
 main section.second section.cards div.card div.img-container img:hover {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 main section.second section.cards div.card h4 {
@@ -210,11 +210,11 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer div.logo {
@@ -222,8 +222,8 @@ footer div.logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 2rem;
 }
 
@@ -242,8 +242,8 @@ footer nav ul {
   list-style-type: none;
   width: 40vw;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 footer nav ul li a {
@@ -262,7 +262,6 @@ footer nav ul li a {
   header div.logo img {
     width: 10vw;
   }
-
   main section.second section.cards div.card img {
     max-width: 20vw;
     max-height: 20vw;
@@ -274,56 +273,45 @@ footer nav ul li a {
   header div.logo img {
     width: 14vw;
   }
-
   header nav ul li a {
     font-size: 1rem;
   }
-
   main section.backImg h3 {
     font-size: 1.5rem;
   }
-
   main section.backImg button.start {
     font-size: 1rem;
   }
-
   main section.second h2 {
     font-size: 1.5rem;
   }
-
   main section.second section.cards {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-
   main section.second section.cards div.card {
     margin-top: 2rem;
   }
-
   main section.second section.cards div.card img {
     max-width: 40vw;
     max-height: 40vw;
     border-radius: 50%;
   }
-
   main section.second section.cards div.card a {
     font-size: 1rem;
   }
-
   footer nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     text-align: center;
   }
-
   footer nav ul li {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 200px;
-    flex: 1 1 200px;
+        -ms-flex: 1 1 200px;
+            flex: 1 1 200px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
