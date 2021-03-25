@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Chun-Hung, Peng" />
     <meta name="robots" content="index, follow" />
     <title>沖繩旅遊社 | 暢玩沖繩的最佳選擇</title>
     <meta name="description" content="專門提供各式沖繩玩法的旅遊社" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
       rel="stylesheet"
     />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -32,33 +36,48 @@
     </header>
     <main>
       <!-- 第一頁 -->
-      <section class="backImg">
+      <section class="backImg" data-aos="fade-down" data-aos-duration="2000">
         <div class="filter"></div>
         <h3>離台灣最近的旅遊天堂<br />沖繩</h3>
         <button class="start">現在開始</button>
       </section>
       <!-- 第二頁 -->
-      <section class="second" id="about">
+      <section
+        class="second"
+        id="about"
+        data-aos="flip-down"
+        data-aos-duration="1000"
+      >
         <h2>
           用最好的心情 享受最美的假期<br />
           <span style="color: #52d6c0">沖繩旅遊社</span>
         </h2>
         <section class="cards">
-          <div class="card">
+          <div class="card" data-aos="zoom-in" data-aos-duration="1000">
             <div class="img-container">
               <img src="./assets/images/okinawa-ex1.jpg" alt="ex1" />
             </div>
             <h4>自由潛水</h4>
             <a href="">了解更多</a>
           </div>
-          <div class="card">
+          <div
+            class="card"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
             <div class="img-container">
               <img src="./assets/images/okinawa-ex2.jpg" alt="ex2" />
             </div>
             <h4>美麗海海生館</h4>
             <a href="">了解更多</a>
           </div>
-          <div class="card">
+          <div
+            class="card"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="2000"
+          >
             <div class="img-container">
               <img src="./assets/images/okinawa-ex3.jpg" alt="ex3" />
             </div>
@@ -70,7 +89,7 @@
       <!-- 第三頁 -->
       <section class="third" id="login">
         <div class="filter"></div>
-        <form action="">
+        <form data-aos="fade-up" data-aos-duration="2000">
           <label for="email">信箱：</label>
           <input
             placeholder="請輸入信箱"
@@ -104,6 +123,11 @@
         </ul>
       </nav>
     </footer>
+    <script src="./app.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
-  <script src="./app.js"></script>
 </html>
